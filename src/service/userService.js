@@ -4,9 +4,9 @@
 // Utilisation de la librairie axios pour effectuer les requêtes vers l'API rest
 import axios from 'axios';
 
-export default class UsersService {
+export default class UserService {
 
-    static getMovie() {
+    static getUsers() {
         return axios({
             'method': 'GET',
             'url': `http://localhost:5000/users`,
@@ -14,5 +14,4 @@ export default class UsersService {
         .then(response => response.data)
         .catch(error => console.log(error))
     }
-    
 }
