@@ -4,6 +4,8 @@ import Header from './components/header/Header';
 import UsersList from './pages/UsersList';
 import Profil from './pages/Profil';
 
+import './app.css';
+
 const App = () => {
   return (
     <Router>

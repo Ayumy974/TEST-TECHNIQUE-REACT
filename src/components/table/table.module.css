@@ -1,0 +1,10 @@
+.container {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    color: #435667;
+    padding: 1rem;
+}

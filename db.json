@@ -1,76 +1,76 @@
 {
-  "users": [
-      {
-          "id": 1,
-          "name": "Estheban",
-          "firstName": "David",
-          "email": "e.david@atypic.fr",
-          "age": 25,
-          "city": "Paris",
-          "department": 75
-      },
-      {
-          "id": 2,
-          "name": "Dupont",
-          "firstName": "Jean",
-          "email": "d.jean@atypic.fr",
-          "age": 21,
-          "city": "Arcueil",
-          "department": 94
-      },
-      {
-          "id": 3,
-          "name": "Madrange",
-          "firstName": "Anne-Claire",
-          "email": "m.anneclaire@atypic.fr",
-          "age": 27,
-          "city": "Paris",
-          "department": 75
-      },
-      {
-          "id": 4,
-          "name": "Clarion",
-          "firstName": "Marine",
-          "email": "c.marine@atypic.fr",
-          "age": 18,
-          "city": "Bussy-Saint-Georges",
-          "department": 77
-      },
-      {
-          "id": 5,
-          "name": "Kristen",
-          "firstName": "Jean-Baptiste",
-          "email": "k.jeanbaptiste@atypic.fr",
-          "age": 35,
-          "city": "Paris",
-          "department": 75
-      },
-      {
-          "id": 6,
-          "name": "Cardoso",
-          "firstName": "Pierre",
-          "email": "c.pierre@atypic.fr",
-          "age": 25,
-          "city": "Ivry-sur-Seine",
-          "department": 94
-      },
-      {
-          "id": 7,
-          "name": "Guilmin",
-          "firstName": "Thomas",
-          "email": "thomas.guilmin@atypic.fr",
-          "age": 32,
-          "city": "Bourg-la-Reine",
-          "department": 92
-      },
-      {
-          "id": 8,
-          "name": "Lenvers",
-          "firstName": "Elisa",
-          "email": "l.elisa@atypic.fr",
-          "age": 25,
-          "city": "Paris",
-          "department": 75
-      }
-  ]
+    "users": [
+        {
+            "id": 1,
+            "name": "Estheban",
+            "firstName": "David",
+            "email": "e.david@atypic.fr",
+            "age": 25,
+            "city": "Paris",
+            "department": 75
+        },
+        {
+            "id": 2,
+            "name": "Dupont",
+            "firstName": "Jean",
+            "email": "d.jean@atypic.fr",
+            "age": 21,
+            "city": "Arcueil",
+            "department": 94
+        },
+        {
+            "id": 3,
+            "name": "Madrange",
+            "firstName": "Anne-Claire",
+            "email": "m.anneclaire@atypic.fr",
+            "age": 27,
+            "city": "Paris",
+            "department": 75
+        },
+        {
+            "id": 4,
+            "name": "Clarion",
+            "firstName": "Marine",
+            "email": "c.marine@atypic.fr",
+            "age": 18,
+            "city": "Bussy-Saint-Georges",
+            "department": 77
+        },
+        {
+            "id": 5,
+            "name": "Kristen",
+            "firstName": "Jean-Baptiste",
+            "email": "k.jeanbaptiste@atypic.fr",
+            "age": 35,
+            "city": "Paris",
+            "department": 75
+        },
+        {
+            "id": 6,
+            "name": "Cardoso",
+            "firstName": "Pierre",
+            "email": "c.pierre@atypic.fr",
+            "age": 25,
+            "city": "Ivry-sur-Seine",
+            "department": 94
+        },
+        {
+            "id": 7,
+            "name": "Guilmin",
+            "firstName": "Thomas",
+            "email": "thomas.guilmin@atypic.fr",
+            "age": 32,
+            "city": "Bourg-la-Reine",
+            "department": 92
+        },
+        {
+            "id": 8,
+            "name": "Lenvers",
+            "firstName": "Elisa",
+            "email": "l.elisa@atypic.fr",
+            "age": 25,
+            "city": "Paris",
+            "department": 75
+        }
+    ]
 }

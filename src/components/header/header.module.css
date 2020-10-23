@@ -1,0 +1,8 @@
+.container {
+    height: 30vh;
+    background-image: url('./../../assets/background/header_background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+}
