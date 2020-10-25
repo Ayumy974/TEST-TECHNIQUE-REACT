@@ -8,7 +8,7 @@ const User = ({ details }) => {
     const history = useHistory();
 
     const handleClick = (id) => {
-        history.push(`/profil/:${id}`)
+        history.push(`/profil/${id}`)
     }
 
     return (

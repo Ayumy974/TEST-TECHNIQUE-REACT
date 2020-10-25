@@ -14,4 +14,13 @@ export default class UserService {
         .then(response => response.data)
         .catch(error => console.log(error))
     }
+
+    static getUser(id) {
+        return axios({
+            'method': 'GET',
+            'url': `http://localhost:5000/users/${id}`,
+        })
+        .then(response => response.data)
+        .catch(error => console.log(error))
+    }
 }

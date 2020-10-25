@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import UserService from '../service/userService';
 
-const Profil = () => {
+const Profil = ({match}) => {
+    const [user, setUser] = useState(null);
+    console.log(match)
+
+    useEffect(() => {
+        UserService.getUser(+match.params.id).then(user => setUser(user));
+    }, [match.params.id])
+
     return (
+        
         <div>
-            <h1>Page de profil</h1>
-        </div>
+            {
+                user ? (<h1>Page de profil de {user.name}</h1>) : ('')
+            }
+        </div>   
     )
 }
 
